@@ -1,0 +1,221 @@
+/* General Styles */
+body {
+    font-family: 'Times New Roman', serif; /* Correctly specifies Times New Roman */
+    margin: 0; /* Removes default browser margin */
+    background-color: #60cbfd; /* Uses a light blue background color */
+    color: #000000; /* Sets the text color to black */
+}
+
+
+header {
+    background-color: #51bfe0;
+    color: #000000;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 1.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    color: #182da5;
+}
+
+main {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+section {
+    background-color: #f7f7f7;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1, h2 {
+    color: #082055;
+}
+
+.project-item {
+    border: 1px solid #4cafe9;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+footer {
+    background-color: #002244;
+    color: #080505;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+}
+/* Home Section Styles */
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    background-color: #eef2f3;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+    width: 150px; /* Adjust size as needed */
+    height: 150px;
+    border-radius: 50%; /* Makes the frame circular */
+    border: 4px solid #002244; /* Adds a border */
+    object-fit: cover; /* Ensures the image fits perfectly inside the circle */
+    margin-bottom: 1rem; /* Adds spacing below the image */
+}
+
+h1 {
+    color: #002244;
+    margin: 0.5rem 0;
+}
+
+p {
+    color: #000000;
+    font-size: 1rem;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7ca5fd; /* Light blue background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .skills-container {
+    background-color: #f8f9fa; /* Light gray background for the card */
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .skills-container h2 {
+    color: hsl(242, 70%, 22%); /* Teal color for the heading */
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .skills-container ul {
+    list-style: disc;
+    padding-left: 20px;
+    text-align: left;
+    margin: 0 auto;
+    display: inline-block;
+  }
+  
+  .skills-container ul li {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #87CEFA; /* Light blue background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .project-container {
+    background-color: #f8f9fa; /* Light gray background for the card */
+    border-radius: 10px;
+    padding: 20px;
+    width: 70%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .project-container h2 {
+    color: #2c3e50; /* Dark blue for the heading */
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .project-content {
+    border: 1px solid #211c6d; /* Light blue border */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px auto;
+  }
+  
+  .project-content h3 {
+    font-size: 20px;
+    color: #2c3e50; /* Dark blue text for the project name */
+    margin-bottom: 15px;
+  }
+  
+  .project-content p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .project-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between images */
+  }
+  
+  .project-images img {
+    width: 150px; /* Adjusted size for better alignment */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border: 2px solid #60d7ec; /* Light blue border for the images */
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+  }
+  
+  .project-images img:hover {
+    transform: scale(1.1); /* Scale effect on hover */
+  }
+
+  .image-container {
+    text-align: center;
+    margin: 20px;
+  }
+
+  .image-container img {
+    max-width: 300px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .image-caption {
+    font-size: 16px;
+    color: #555;
+  }
